@@ -1,6 +1,4 @@
-language: make
-make:
-  - stable
+language: C
 skript:
   - make
 deploy:
