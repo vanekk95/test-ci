@@ -1,0 +1,10 @@
+language: make
+make:
+  - stable
+skript:
+  - make
+deploy:
+  provider: pages
+  skip_claenup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: bin
