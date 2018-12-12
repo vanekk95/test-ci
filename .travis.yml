@@ -1,6 +1,5 @@
 language: C
-skript:
-  - make
+skript: make
 deploy:
   provider: pages
   skip_claenup: true
